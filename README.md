@@ -1,6 +1,7 @@
 # sculptures_wtn
 
 A dashboard of sculptures in the city of Wellington, New Zealand.
+Demo: https://zacclarknz.github.io/sculptures_wtn/ 
 
 ## Built With
 * [sf for R](https://github.com/r-spatial/sf) - geoprocessing and data cleaning
@@ -11,7 +12,7 @@ A dashboard of sculptures in the city of Wellington, New Zealand.
 * [data.tables.js](https://datatables.net/) - jquery datatables
 
 ## Acknowledgments
-This is based on the excellent [Nashville permits databoard](https://github.com/wallinm1/map-dashboard) by [Wallinm1](https://github.com/wallinm1)
+This is based on the excellent [Nashville permits databoard](https://github.com/wallinm1/map-dashboard) by [Wallinm1](https://github.com/wallinm1).
 
 ## Data
 Data is from the [Wellington City Council](https://data-wcc.opendata.arcgis.com/datasets/wellington-city-sculptures).
