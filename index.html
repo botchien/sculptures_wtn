@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wellington Sculptures</title>
+<meta charset="UTF-8">
+<meta content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
+<link type="text/css" href="css/leaflet.css" rel="stylesheet"/>
+<link type="text/css" href="css/leaflet.markercluster.css" rel="stylesheet"/>
+<link type="text/css" href="css/dc.css" rel="stylesheet"/>
+<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" href="css/jquery.dataTables.min.css" rel="stylesheet">
+<style>
+    h4 span {
+      font-size:14px;
+      font-weight:normal;
+      }
+    h2 {
+      float: left;
+    }
+    h2 span {
+      font-size:14px;
+      font-weight:normal;
+      }
+	.dc-chart g.row text {
+	  fill: black;
+	  font-size: 10px;
+	}
+	label {
+	  font: bold 12px sans-serif;
+	}
+</style>
+</head>
+<body>
+
+<div class='container' id='main-container'>
+<div class='content'>
+<div class='container' style='font: 12px sans-serif;'>
+	<div class = 'row'>
+		<div class="col-xs-12 dc-data-count" style = 'float:left;'>
+			<h2>Wellington Sculptures
+			  <span>
+				<span class="filter-count"></span>
+				 selected out of 
+				<span class="total-count"></span>
+
+			  </span>
+			</h2>
+		</div>
+	</div>
+	
+	<div class = 'row'>
+		<div class='col-xs-12' id='dc-map-chart'>
+		  <h3>
+			Sculptures
+				<span>
+					<a class="reset"
+					href="#" id="mapReset"
+					style="display: none;">
+					reset
+					</a>
+				</span>
+		  </h3>
+		</div> 
+
+	</div> 
+	
+	<div class='row'>
+
+		<div class='col-xs-6' id = 'dc-row-chart'>
+			<h3>
+			 Area
+				<span>
+					<a class="reset"
+					href="javascript:rowChart.filterAll();dc.redrawAll();"
+					style="display: none;">
+					reset
+					</a>
+				</span>
+			</h3>
+	    </div>
+
+
+		<div class='col-xs-6'  id='dc-time-chart'>
+		  <h3>Install Date</h3>
+		</div>
+
+	</div>
+  	</div>
+
+	<div class='row'>
+		<div class='col-xs-12'>
+			<h3>Data Table</h3>
+				<table class='table table-hover' id='dc-table-chart'>
+				</table>
+		</div>
+	</div>
+	<span style = 'float:left;'> <a href="https://data-wcc.opendata.arcgis.com/datasets/wellington-city-sculptures"> WCC data</a></span>
+</div>
+</div>
+</div>
+
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js'></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script> -->
+<script type="text/javascript" src="js/d3.js"></script>
+<script type="text/javascript" src="js/crossfilter.js"></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.js'></script> -->
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/dc/3.0.4/dc.js'></script> -->
+<script type="text/javascript" src="js/dc.js"></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js'></script> -->
+<!-- <script type="text/javascript" src="js/leaflet.js"></script> -->
+<script type="text/javascript" src="js/leaflet_1.0.2.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/leaflet.markercluster.js'></script> -->
+<script type="text/javascript" src="js/leaflet.markercluster.js"></script>
+<script type="text/javascript" src="js/dc.leaflet.js"></script>
+
+<script type="text/javascript">
+
+//connect charts to their appropriate selectors
+var mapChart = dc_leaflet.markerChart("#dc-map-chart");
+
+var rowChart = dc.rowChart("#dc-row-chart");
+// var rowChart2 = dc.rowChart("#dc-row-chart2");
+var barChart = dc.barChart("#dc-time-chart");
+var dataCount = dc.dataCount(".dc-data-count");
+var datatable = $('#dc-table-chart');
+
+//initial map view and zoom
+var defaultCenter = [-41.28664, 174.77557];   
+var defaultZoom = 11;
+
+d3.json("data/sculpture.json", function(data) {
+	var dateFormat = d3.time.format("%Y-%m-%d");
+    data.forEach( function(d,i) {
+		//handle missing values for table variables
+		d.site_name = d.site_name ? d.site_name : "MISSING";
+		d.au_name = d.au_name ? d.au_name : "MISSING";
+		d.artist = d.artist ? d.artist : "MISSING";
+
+		d.year_installed = dateFormat.parse(d.year_installed);
+		// d.year_installed = d.year_installed ? d.year_installed : "MISSING";
+
+		// parse lat lng-data
+		if (d.y!=null && d.y!=undefined) {
+			d.geo = d.y + "," + d.x;
+		} else {
+			d.geo = "-36.8955, 174.7569" //dummy coordinates, NYC
+		}
+          });
+	
+	//toplevel crossfilter
+	var xf = crossfilter(data);
+	
+	//counter
+	var all = xf.groupAll();
+	dataCount.dimension(xf)
+		.group(all);
+
+	//map
+	var geo = xf.dimension(function(d) { return d.geo; });
+	mapChart.dimension(geo)
+	  .group(geo.group())
+	  .width(850)
+	  .height(400)
+	  .margins({top: 10, right: 10, bottom: 20, left: 40})
+	  .center(defaultCenter)
+	  .zoom(defaultZoom)
+	  .renderPopup(false)
+	  .brushOn(true)
+	  .cluster(true)
+	  .filterByArea(true);
+	
+	var areatDim = xf.dimension(function(d) { return d.au_name; });
+	rowChart
+	  .width(400)
+	  .height(425)
+	  .margins({top: 10, right: 10, bottom: 20, left: 40})
+	  .dimension(areatDim)
+	  .group(areatDim.group())
+	  .ordering(function (p) {
+		  return -p.value;
+	  })
+	  .elasticX(true);
+	 
+	//time series bar chart
+	var yearDim = xf.dimension(function (d) { return d.year_installed; });
+	// var groupByYear = yearDim.group().reduceCount(function(d){ return d.yearDim; });
+
+	barChart
+		.width(400)
+		.height(425)
+		.margins({top: 10, right: 10, bottom: 20, left: 40})
+		.dimension(yearDim)
+		.group(yearDim.group())
+		.transitionDuration(500)
+		.x(d3.time.scale().domain([new Date(1990, 1, 1), new Date(2018, 12, 31)]))
+		.round(d3.time.year.round)
+		.xUnits(d3.time.years)
+		.elasticY(true)
+		.brushOn(true)
+		.controlsUseVisibility(true)
+		.xAxis().ticks(5);	
+
+	var dateFormat = d3.time.format("%B %Y")
+
+	// //table
+	// //dimension for table search
+	var tableDimension = xf.dimension(function (d) { return d.site_name.toLowerCase() + ' ' +
+															d.sculpture.toLowerCase() + ' ' +
+															d.location.toLowerCase() + ' ' +
+															d.artist.toLowerCase() });
+	
+												
+	var my_columns = [];
+	// get json column names, so we don't have to declare manually
+	//	https://stackoverflow.com/questions/39644079/how-to-display-the-column-headers-dynamically-in-jquery-data-table
+	$.each( data[0], function( key, value ) {
+			var my_item = {};
+			my_item.data = key;
+			my_item.title = key;
+			// rename some columns from table
+			if(key != 'geo' & key != 'date_e'){
+				my_columns.push(my_item);
+			}
+	});
+
+	// restrict my columns names
+	my_columns = Object.entries(my_columns).slice(0,6).map(entry => entry[1]);
+
+
+	// make the datatable
+	datatable.dataTable( {
+	   data: xf,
+	   columns: my_columns,
+	   columnDefs: [
+	   {
+			targets: 3,
+			data: function (d) { return dateFormat(d.year_installed); },
+			type: 'date',
+			defaultContent: 'Not found' },
+
+			{ width: '45%', targets: 4 }
+		]
+	});
+
+	//custom refresh function, see http://stackoverflow.com/questions/21113513/dcjs-reorder-datatable-by-column/21116676#21116676
+	function RefreshTable() {
+            dc.events.trigger(function () {
+                alldata = tableDimension.top(Infinity);
+                datatable.fnClearTable();
+                datatable.fnAddData(alldata);
+                datatable.fnDraw();
+            });
+        }
+	
+	//call RefreshTable when dc-charts are filtered
+	for (var i = 0; i < dc.chartRegistry.list().length; i++) {
+		var chartI = dc.chartRegistry.list()[i];
+		chartI.on("filtered", RefreshTable);
+	}
+	
+	//filter all charts when using the datatables search box
+	 $(":input").on('keyup',function(){
+		text_filter(tableDimension, this.value);//propType is the dimension for the data table
+
+	function text_filter(dim,q){
+		 if (q!='') {
+			dim.filter(function(d){
+				return d.indexOf (q.toLowerCase()) !== -1;
+			});
+		} else {
+			dim.filterAll();
+			}
+		RefreshTable();
+		dc.redrawAll();}
+	});
+
+	 $.fn.dataTable.ext.errMode = 'none';
+
+	datatable.on( 'error.dt', function ( e, settings, techNote, message ) {
+    console.log( 'An error has been reported by DataTables: ', message );
+	} ) ;
+	
+	//reset map view on clicking the reset button
+	 $("#mapReset").on('click', function() {
+		mapChart.map().setView(defaultCenter, defaultZoom);
+	 });
+	//initial table refresh
+	RefreshTable();
+	//initialize other charts
+	dc.renderAll();
+});
+
+</script>
+</body>
+</html>

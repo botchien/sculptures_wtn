@@ -1,0 +1,732 @@
+[
+  {
+    "site_name": "Main Rd",
+    "sculpture": "Keruru",
+    "artist": "Kingsley Baird",
+    "year_installed": "2000-01-01",
+    "location": "Title/Year: Kereru sculpture (2000). Artist: Kingsley Baird.   (The tall trunk of the sculpture is copper wound similar to the Civic Centre nikau palms)   Copper plaque at the base of the sculpture \" This sculpture is named after the native wood pige",
+    "au_name": "Tawa Central",
+    "x": 174.8252,
+    "y": -41.1697
+  },
+  {
+    "site_name": "Karori Cemetery",
+    "sculpture": "Remembrance",
+    "artist": "Grant Bunyan",
+    "year_installed": "1997-01-01",
+    "location": "Garden of Remembrance - Landscape features and amenities. Stone \"Remembrance\" (1997) sculpture in centre of shrub bed and brick paved area.  Artist: Grant Bunyan.  Donated to the citizens of Wellington by Denis and Verna Adam.",
+    "au_name": "Karori North",
+    "x": 174.7508,
+    "y": -41.2798
+  },
+  {
+    "site_name": "Dorrie Leslie Park",
+    "sculpture": "Moai",
+    "artist": "Tevo Pakarati",
+    "year_installed": "2004-01-01",
+    "location": "Moai statue overlooking the sea, and description plaque nearby.  Material: Hinuera Stone Artist: Tevo Pakarati. Protectosil Antigraffiti coating applied to statue. See photo for plaque detail, and attributes for other detail.",
+    "au_name": "Melrose-Houghton Bay-Southgate",
+    "x": 174.7935,
+    "y": -41.3383
+  },
+  {
+    "site_name": "Dorrie Leslie Park",
+    "sculpture": "Moai",
+    "artist": "Tevo Pakarati",
+    "year_installed": "2004-01-01",
+    "location": "Moai statue overlooking the sea, and description plaque nearby.  Material: Hinuera Stone Artist: Tevo Pakarati. Protectosil Antigraffiti coating applied to statue. See photo for plaque detail, and attributes for other detail.",
+    "au_name": "Melrose-Houghton Bay-Southgate",
+    "x": 174.7934,
+    "y": -41.3383
+  },
+  {
+    "site_name": "Moa Point",
+    "sculpture": "Doo Doos",
+    "artist": "Peter Kundycki",
+    "year_installed": "1998-01-01",
+    "location": "Boulder sculpture just past the pound on Moa Point Rd on the south side (\"Doo Doo's\").  Artist: Peter Kundycki.",
+    "au_name": "Lyall Bay-Airport-Moa Point",
+    "x": 174.8127,
+    "y": -41.3422
+  },
+  {
+    "site_name": "Cobham Dr (Transit)",
+    "sculpture": "Pacific Grass",
+    "artist": "Kon Dimopoulous",
+    "year_installed": "2000-01-01",
+    "location": "\"Pacific Grass\" (2000). Sculpture in the middle of the eastern roundabout. Glows red at night time. Sculpture by Kon Dimopoulous/Neil Galbreath.  Consists of bakelite rods.  Origin/Provenance: Wellington Sculpture Trust, sponsored by Meridian Energy.",
+    "au_name": "Lyall Bay-Airport-Moa Point",
+    "x": 174.8092,
+    "y": -41.3169
+  },
+  {
+    "site_name": "Bunny St",
+    "sculpture": "Buzzy Bee Sculptural Sign",
+    "artist": "Hugh Nicholson, Bob Sharpe",
+    "year_installed": "2006-01-01",
+    "location": "Bunny Street/Lambton Quay.   Title/Year: Bunny Street Sculptural Sign - Buzzy Bee (2006). Artist: Designed by Hugh Nicholson (WCC) Built by Bob Sharpe (Citi-Ops). Consists of Painted sculpture made of aluminium mounted on sign base.",
+    "au_name": "Thorndon-Tinakori Road",
+    "x": 174.7785,
+    "y": -41.2788
+  },
+  {
+    "site_name": "Bowen St",
+    "sculpture": "Kaiwhakatere",
+    "artist": "Graham B",
+    "year_installed": "2000-01-01",
+    "location": "Site of  former Broadcasting House.   Title/Year: Kaiwhakatere, the Navigator (1999) . Artist: Brett Graham. Consists of Black granite cobblestone on reinforced concrete. Mortar and polyester putty. Comments: Three sculptures: waka, manu and tuahu -",
+    "au_name": "Thorndon-Tinakori Road",
+    "x": 174.7754,
+    "y": -41.2784
+  },
+  {
+    "site_name": "The Cenotaph - War Memorial Reserve",
+    "sculpture": "The Cenotaph",
+    "artist": "Richard Oliver Gross",
+    "year_installed": "1931-01-01",
+    "location": "War memorial (\"Cenotaph\") on the corner of Bowen St and Lambton Quay, including two bronze lions and horseman/horse at top of structure.  Artist: Richard Oliver Gross (England/NZ 1882-1964). Lions Origin/Provenance: Family of the late Tom James.",
+    "au_name": "Thorndon-Tinakori Road",
+    "x": 174.7772,
+    "y": -41.2792
+  },
+  {
+    "site_name": "Railway Station Reserve, Bunny St",
+    "sculpture": "Railway Station Sculpture Sign",
+    "artist": "Hugh Nicholson, Bob Sharpe",
+    "year_installed": "2005-01-01",
+    "location": "Railway Station  Title/Year: Railway Station Sculptural Sign - Train (2005). Artist: Designed by Hugh Nicholson (WCC) Built by Bob Sharpe (Citi-Ops). Consists of Painted sculpture made of aluminium mounted on sign base.",
+    "au_name": "Thorndon-Tinakori Road",
+    "x": 174.7797,
+    "y": -41.2797
+  },
+  {
+    "site_name": "Waititi Landing",
+    "sculpture": "Pou Whenua",
+    "artist": "Ra Vincent",
+    "year_installed": "2005-01-01",
+    "location": "Pou Whenua on the south side of the boardwalk Wai-titi Landing, corner Lambton Quay and Molesworth St",
+    "au_name": "Thorndon-Tinakori Road",
+    "x": 174.778,
+    "y": -41.2787
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "The Ferns",
+    "artist": "Neil Dawson",
+    "year_installed": "1998-01-01",
+    "location": "Civic Square, suspended between MOB and Art Gallery.   Title/Year: Ferns (1998). Artist: Neil Dawson. Consists of Aluminium . Origin/Provenance: Commissioned by Wellington Sculpture Trust, the New Zealand Festival of the Arts and the Wellington City",
+    "au_name": "Lambton",
+    "x": 174.7772,
+    "y": -41.2888
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Capital and Prow",
+    "artist": "M Pine",
+    "year_installed": "1991-01-01",
+    "location": "Entrance to City to Sea bridge.   Title/Year: Prow. Artist: Matt Pine. Consists of Oamaru Stone, black plaque.",
+    "au_name": "Lambton",
+    "x": 174.7776,
+    "y": -41.2888
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7779,
+    "y": -41.289
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Silent People",
+    "artist": "Chris Booth",
+    "year_installed": "1991-01-01",
+    "location": "Title/Year: Silent People 1991: Five columns of boulders. Artist: Chris Booth. Consists of Taranaki Andesite boulders and Galvanised steel rods.",
+    "au_name": "Lambton",
+    "x": 174.7767,
+    "y": -41.2886
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "The Pool",
+    "artist": "Fisher",
+    "year_installed": "1994-01-01",
+    "location": "Adjacent to City to Sea bridge.  Title/Year: Reflected Pools (1991): Three seats surrounding lawn area. Artist: Charlotte Fisher. Consists of Wood, paving, grass.",
+    "au_name": "Lambton",
+    "x": 174.7782,
+    "y": -41.289
+  },
+  {
+    "site_name": "Grey St",
+    "sculpture": "Invisible City",
+    "artist": "Anton Parsons",
+    "year_installed": "2003-01-01",
+    "location": "Lambton Quay/Grey St.   Title/Year: Invisible City (2003). Artist: Anton Parsons. Consists of Satin polished steel. Origin/Provenance: Joint Venture funded by the Wellington Sculpture Trust.  The Jack & Emma Griffin Charitable Trust commissioned by t",
+    "au_name": "Lambton",
+    "x": 174.7756,
+    "y": -41.2845
+  },
+  {
+    "site_name": "Grey St",
+    "sculpture": "Walk to the Water Sculptural Sign",
+    "artist": "Jerry Luhman, Bob Sharpe",
+    "year_installed": "2000-01-01",
+    "location": "Lambton Quay/Grey Street intersection.   Title/Year: Walk to the Water Sculptural Sign - Stylised Waka (1999 - 2000). Artist: Designed by Drex (well known Graffiti artist) Built by Bob Sharpe (Citi-Ops). Consists of Sculpture mounted on sign base.",
+    "au_name": "Lambton",
+    "x": 174.7755,
+    "y": -41.2844
+  },
+  {
+    "site_name": "Lambton Quay",
+    "sculpture": "Protoplasm",
+    "artist": "Phil Price",
+    "year_installed": "2002-01-01",
+    "location": "\"Protoplasm\" (2002) sculpture with a moveable yellowish-green discs mounted on a pole.  On corner of Hunter St and Lambton Quay. Sculpture Phil Price.  Consists of carbon fibre and steel.  Origin/Provenance: Joint Venture between the Wellington Sculp",
+    "au_name": "Lambton",
+    "x": 174.7758,
+    "y": -41.2854
+  },
+  {
+    "site_name": "Lambton Quay",
+    "sculpture": "Shells",
+    "artist": "Jeff Thomson",
+    "year_installed": "2002-01-01",
+    "location": "On the corner of Waring Taylor St/Lambton Quay a large shell  with a plaque \"Shells\" by Jeff Thomson Nov 2002 Funded by the Jack and Emma Griffin Charitable Trust commissioned by the Wellington Sculpture Trust in parternership with the WCC with the s",
+    "au_name": "Lambton",
+    "x": 174.7762,
+    "y": -41.2819
+  },
+  {
+    "site_name": "Post Office Sq",
+    "sculpture": "De lautre Cote",
+    "artist": "Elie Cristiani",
+    "year_installed": "2001-01-01",
+    "location": "French Telephone Booth.   Title/Year: De l'Autre Cote (On the Other Side). Artist: Elie Cristiani (France).  Comments: Hear and experience anonymous sounds of life and nature on the other side of the world (Corsica).",
+    "au_name": "Lambton",
+    "x": 174.7773,
+    "y": -41.2848
+  },
+  {
+    "site_name": "Post Office Sq",
+    "sculpture": "Sky Blues",
+    "artist": "Bill Culbert",
+    "year_installed": "2006-01-01",
+    "location": "\"SkyBlues\" seven upright steel poles and blue neon spirals at Post Office Square.",
+    "au_name": "Lambton",
+    "x": 174.7773,
+    "y": -41.2849
+  },
+  {
+    "site_name": "Woodward St",
+    "sculpture": "Spinning Top",
+    "artist": "Robert Jahnke",
+    "year_installed": "2002-01-01",
+    "location": "Title/Year: Spinning Top (2002). Artist: Robert Jahnke. Consists of Stainless steel. Origin/Provenance: Joint Venture between the Wellington Sculpture Trust.  The Jack & Emma Griffin Charitable Trust and WCC.  Plaque - bronze plaque beside the sculpt",
+    "au_name": "Lambton",
+    "x": 174.7752,
+    "y": -41.282
+  },
+  {
+    "site_name": "Woodward St",
+    "sculpture": "Woodward Street Sculptural Sign",
+    "artist": "Jerry Luhman, Bob Sharpe",
+    "year_installed": "2000-01-01",
+    "location": "Title/Year: Woodward Street Sculptural Sign (1999 - 2000). Artist: Designed by Drex (well known Graffiti artist) Built by Bob Sharpe (Citi-Ops). Consists of Sculpture mounted on sign base. Comments: Stylised raupo, eels and eel traps.",
+    "au_name": "Lambton",
+    "x": 174.7759,
+    "y": -41.2821
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Axis of the Gate of Serendipity",
+    "artist": "Bruce Campbell",
+    "year_installed": "1997-01-01",
+    "location": "Jack Illot Green/Circa site.   Title/Year: Axis of the Gate of Serendipity - the four winds (1997). Artist: Bruce Campbell. Consists of Oamaru Stone. Origin/Provenance: History uncertain. May be on permanent loan from artist.",
+    "au_name": "Lambton",
+    "x": 174.7781,
+    "y": -41.2884
+  },
+  {
+    "site_name": "Cable Car Lane Terminal",
+    "sculpture": "Cable Car Sculptural Sign",
+    "artist": "Hugh Nicholson, Bob Sharpe",
+    "year_installed": "2002-01-01",
+    "location": "Cable Car Lane/Lambton Quay.   Title/Year: Cable Car Lane Sculptural Sign - early 20th Century Cable Car (2002). Artist: Designed by Hugh Nicholson (WCC) Built by Bob Sharpe (Citi-Ops). Consists of Painted sculpture made of aluminium mounted on sign",
+    "au_name": "Lambton",
+    "x": 174.7754,
+    "y": -41.2843
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7779,
+    "y": -41.2888
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7778,
+    "y": -41.2885
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7777,
+    "y": -41.2884
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7774,
+    "y": -41.2881
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7774,
+    "y": -41.2881
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7773,
+    "y": -41.288
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7772,
+    "y": -41.288
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7772,
+    "y": -41.2879
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.777,
+    "y": -41.2879
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7771,
+    "y": -41.2879
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7769,
+    "y": -41.2878
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7769,
+    "y": -41.2878
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7768,
+    "y": -41.2878
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7767,
+    "y": -41.2878
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.777,
+    "y": -41.2879
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Nikaus",
+    "artist": "Ian Athfield",
+    "year_installed": "1991-01-01",
+    "location": "Civic Square and Harris St.   Title/Year: Nikaus (17 individual trees). Artist: Ian Athfield. Consists of Copper, zinc and steel.",
+    "au_name": "Lambton",
+    "x": 174.7767,
+    "y": -41.2878
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Capital and Prow",
+    "artist": "M Pine",
+    "year_installed": "1991-01-01",
+    "location": "Entrance to City to Sea bridge.   Title/Year: Prow. Artist: Matt Pine. Consists of Oamaru Stone, black plaque.",
+    "au_name": "Lambton",
+    "x": 174.7775,
+    "y": -41.2889
+  },
+  {
+    "site_name": "Plimmers Steps",
+    "sculpture": "John Plimmer",
+    "artist": "Tom Tischler/Ross Wilson/Judy",
+    "year_installed": "1996-01-01",
+    "location": "John Plimmer and dog Fritz (1996) bronze statue.  John Plimmer (1812-1905) known as the \"Father of Wellington\" because he was active in many facets of Wellington's commercial and political life.  Artist: Tom Tischler / Ross Wilson and Judy Alexander.",
+    "au_name": "Lambton",
+    "x": 174.7758,
+    "y": -41.2858
+  },
+  {
+    "site_name": "Frank Kitts Park Precinct",
+    "sculpture": "Albatross",
+    "artist": "Tanya Ashken",
+    "year_installed": "1986-01-01",
+    "location": "Frank Kitts Park.   Title/Year: Albatross, sculpture/fountain ® 1980-1986. Artist: Tanya Ashken. Consists of Painted concrete. Gifted 1986 by Wellington Sculpture Trust, WCC donated $20,000 towards Sculpture Trust's Appeal.  Comments: A project of t",
+    "au_name": "Lambton",
+    "x": 174.7789,
+    "y": -41.288
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "The Pig",
+    "artist": "Alan Hobbs",
+    "year_installed": "1995-01-01",
+    "location": "Civic Square.   Title/Year: Pig (1995). Artist: Alan Hobbs. Consists of Oamaru Stone.",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7775,
+    "y": -41.289
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Anchor Stone",
+    "artist": "Ra Vincent",
+    "year_installed": "2004-01-01",
+    "location": "Anchor Stone - Large carved stone with mooring rope. Has small plaque with wording \"Anchor Stone - Ra Vincent Presented to Wellington City Council by the Wellington Tenths Trust nga tekau o poneke in celebration of the Wellington Town Hall Centenary",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7776,
+    "y": -41.2891
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "City to Sea Bridge",
+    "artist": "Para Matchitt",
+    "year_installed": "1992-01-01",
+    "location": "Civic Square and across Jervois Quay to Frank Kitts Park.   Title/Year: The City to Sea Bridge (1992-1993): Whales, Birds, Patiki (flounder), Upright Pous, Fish (near lagoon). Artist: John Gray/Rewi Thompson/Para Matchitt. Consists of Concrete, wood,",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7786,
+    "y": -41.2887
+  },
+  {
+    "site_name": "Civic Centre Complex",
+    "sculpture": "Seven Steps to Heaven/Sea to Sky",
+    "artist": "Mary Louise Brown",
+    "year_installed": "2000-01-01",
+    "location": "Civic Square.   Title/Year: Seven Steps to Heaven / Sea to Sky (2000). Artist: Mary Louise Brown. Consists of Basalt/granite. Origin/Provenance: Civic Square development project.  Comments: Creative Places Award, WCC and Summer City 1998.  Presented",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7768,
+    "y": -41.2889
+  },
+  {
+    "site_name": "Victoria St",
+    "sculpture": "Great Head",
+    "artist": "Terry Stringer",
+    "year_installed": "1986-01-01",
+    "location": "Sculpture bronze - 'Great Head'   sited on pedestal between two low raised  beds, Artist Terry Stringer.  Origin: Wellington City Council Art Bonus Scheme.",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.776,
+    "y": -41.2891
+  },
+  {
+    "site_name": "Cuba St",
+    "sculpture": "Umbrella",
+    "artist": "Peter Kundycki",
+    "year_installed": "1990-01-01",
+    "location": "Cuba Street at Manners Mall.   Title/Year: Umbrella (1997).  Consists of Steel, Aluminium. Comments: Original date: 1990, relocated from corner Cuba and Wakefield St to present location & aluminium replaced original fabric.",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7766,
+    "y": -41.2917
+  },
+  {
+    "site_name": "Cuba St",
+    "sculpture": "Cuba Mall Sculpture Sign",
+    "artist": "Drex, Bob Sharpe",
+    "year_installed": "1999-01-01",
+    "location": "Cuba Mall/Manners Mall.   Title/Year: Cuba Mall Sculptural Sign - Exploding Box Syndrome (1999 - 2000). Artist: Designed by Drex (well known Graffiti artist) Built by Bob Sharpe (Citi-Ops). Consists of Sculpture mounted on sign base.",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7769,
+    "y": -41.2913
+  },
+  {
+    "site_name": "Courtenay Pl",
+    "sculpture": "Tripod",
+    "artist": "Weta Workshop",
+    "year_installed": "2005-01-01",
+    "location": "\"Tripod\" a tribute to Wgtn's film industry. Cnr of Courtenay Pl & Cambridge Tce Plaque at the base \" Tripod by Weta W'shop. unveiled by Mayor of Wgtn K.Prendergast 17 Nov 2005. In recognition of the film and television industry. WCC Weta Workshop\"",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7835,
+    "y": -41.2941
+  },
+  {
+    "site_name": "Courtenay Pl",
+    "sculpture": "Punga Peke",
+    "artist": "Mike Murray",
+    "year_installed": "2000-01-01",
+    "location": "Courtenay Place (Centre of roadway between Tory to Taranaki Streets).   Title/Year: Punga Peke - New Life (2000). Artist: Mike Murray. Consists of Cast iron, patina.   Comments: 2 metal sculptures.",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.78,
+    "y": -41.2931
+  },
+  {
+    "site_name": "Courtenay Pl",
+    "sculpture": "Te Moana",
+    "artist": "Logan Shipgood",
+    "year_installed": "1999-01-01",
+    "location": "\"Te Moana\" (2000) - carved sculpture in paved area, Nth end of Courtenay Pl.  Artist: Okiwi (Logan) Shipgood. White Kairuru marble, concrete base.  Origin/Provenance: Donated by Wgtn Sculpture Trust. Sculpted 1999 Tareitanga symposium Frank Kitts Pk",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7791,
+    "y": -41.2927
+  },
+  {
+    "site_name": "Cuba St",
+    "sculpture": "Wellington a Sri Chinmoy Peace Capital",
+    "artist": "Unknown",
+    "year_installed": "2002-01-01",
+    "location": "Cuba Mall.   Title/Year: Wellington a Sri Chinmoy Peace Capital (2002).   Comments: Wellington joins the global family of Sri Chinmoy Peace Blossoms - significant and inspiring places around the world dedicated to world harmony.",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7767,
+    "y": -41.2916
+  },
+  {
+    "site_name": "Kent/Cambridge Terrace Reserve",
+    "sculpture": "Queen Victoria Statue",
+    "artist": "Alfred Drury",
+    "year_installed": "1905-01-01",
+    "location": "Queen Victoria Statue (1905).  Bronze on Aberdeen granite pedestal.  Artist: Alfred Drury.  Origin/Provenance:  Gifted in 1902 by the citizens of Wellington.",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7832,
+    "y": -41.2952
+  },
+  {
+    "site_name": "Glover Park",
+    "sculpture": "unknown",
+    "artist": "Shane McGrath",
+    "year_installed": "2012-01-01",
+    "location": "Title/Year: Everything is for the best, in this best of all possible worlds (2012).  Artist: Shane McGrath. Consists of metal legs with wooden top & copper domes.",
+    "au_name": "Willis Street-Cambridge Terrace",
+    "x": 174.7748,
+    "y": -41.2934
+  },
+  {
+    "site_name": "Cummings Park & Play Area",
+    "sculpture": "Primoridial Ancestors",
+    "artist": "Ian Prior",
+    "year_installed": "2000-01-01",
+    "location": "Carved marble sulpture on grass beside bridge -Primordial Ancestors  by Ian Prior . Presented to the people of Ngaio by the Wellington Sculpture Trust. January 2000. Constructed by the Ngaio Progressive Association and the Wellington City Council\"",
+    "au_name": "Ngaio South",
+    "x": 174.7734,
+    "y": -41.2485
+  },
+  {
+    "site_name": "Wadestown Library",
+    "sculpture": "The Floating Sea Shell",
+    "artist": "Lorraine Polglase",
+    "year_installed": "1999-01-01",
+    "location": "Wadestown Library - Moorehouse St.   Title/Year: The Floating Sea Shell Pacific. Artist: Lorraine Polglase. Consists of White Takaka marble on concrete pad. Origin/Provenance: Wellington Sculpture Trust. Sculpted during the 1999 Tareitanga symposium",
+    "au_name": "Wadestown",
+    "x": 174.7768,
+    "y": -41.2627
+  },
+  {
+    "site_name": "Botanical Gardens of Wellington",
+    "sculpture": "Inner Form",
+    "artist": "Henry Moore",
+    "year_installed": "1988-01-01",
+    "location": "\"Inner Form\" (1986, Wgtn 1988) sculpture - sculptor Henry Moore. On east hill overlooking rose garden and Anderson Park.  Origin/Provenance: Wellington Sculpture Trust under the Arts Bonus Scheme from Fletcher Devlopment and Construction Ltd.",
+    "au_name": "Kelburn",
+    "x": 174.77,
+    "y": -41.2817
+  },
+  {
+    "site_name": "Botanical Gardens of Wellington",
+    "sculpture": "Body to Soul",
+    "artist": "Marie Lousie Brown",
+    "year_installed": "1996-01-01",
+    "location": "\"Body to Soul\" (1996) sculpture along Norwood Path - sculptor Mary Louise Browne.  Consists of black granite cobblestone.  Origin/Provenance: Wellington Sculpture Trust with help from Creative NZ and WCC.",
+    "au_name": "Kelburn",
+    "x": 174.7693,
+    "y": -41.2829
+  },
+  {
+    "site_name": "Botanical Gardens of Wellington",
+    "sculpture": "Listening and Viewing Device",
+    "artist": "Andrew Drummond",
+    "year_installed": "1994-01-01",
+    "location": "Large sculpture on Druids Hill - \"Listening and Viewing Device\" (1994).  Artist: Andrew Drummond.  Consists of copper and steel.  Origin/Provenance: Wellington Sculpture Trust with grants from Creative NZ and Wellington City Council.",
+    "au_name": "Kelburn",
+    "x": 174.7676,
+    "y": -41.2815
+  },
+  {
+    "site_name": "Botanical Gardens of Wellington",
+    "sculpture": "Norwood Sculpture",
+    "artist": "Andrew De Boer",
+    "year_installed": "2001-01-01",
+    "location": "Rasa Leela (2001) Dance of Life, Norwood Sculpture - Bronze sculpture on grass near peace flame in the Rose Gardens.",
+    "au_name": "Kelburn",
+    "x": 174.7701,
+    "y": -41.2807
+  },
+  {
+    "site_name": "Botanical Gardens of Wellington",
+    "sculpture": "Peacemaker",
+    "artist": "Chris Booth",
+    "year_installed": "1990-01-01",
+    "location": "Stone water sculpture \"Peacemaker\" (1990) on grass beside Manuka driveway, down from Druid Hill.  Sculptor: Chris Booth.  Consists of boulders and steel.  Origin/Provenance: Wellington Sculpture Trust.",
+    "au_name": "Kelburn",
+    "x": 174.7682,
+    "y": -41.2813
+  },
+  {
+    "site_name": "Botanical Gardens of Wellington",
+    "sculpture": "Rudderstone",
+    "artist": "Dennis O'Connor",
+    "year_installed": "1997-01-01",
+    "location": "\"Rudderstone\" (1997) sculpture beside Manuka Way driveway.  Half donation half  WCC funded.  Artist: Denis O'Connor.  Consists of black marble, Azul marble, and Carrara marble.  Origin/Provenance: Wellington Sculpture Trust.",
+    "au_name": "Kelburn",
+    "x": 174.7681,
+    "y": -41.282
+  },
+  {
+    "site_name": "Botanical Gardens of Wellington",
+    "sculpture": "Centennial Sundial",
+    "artist": "Peter Kundycki",
+    "year_installed": "1993-01-01",
+    "location": "\"Centennial Sundial\" (1891 - 1991) at entrance to sound shell lawn south end.   Consists of bronze.  Origin/Provenance: Commissioned by the Royal Society of New Zealand and the Wellington Historical and Early Settlers Association, to commemorate 100",
+    "au_name": "Kelburn",
+    "x": 174.7664,
+    "y": -41.2816
+  },
+  {
+    "site_name": "Botanical Gardens of Wellington",
+    "sculpture": "Sundial of Human Involvement",
+    "artist": "Charles Stone",
+    "year_installed": "1999-01-01",
+    "location": "Outside Carter Observatory. \"Sundial of Human Involvement\" (1991) - commemorates arrival of John Plimmer in Wellington in 1841.  Artist: Charles Stone. Consists of Takaka granite, bronze, reinforced concrete and steel.  Origin/Provenance: Wellington",
+    "au_name": "Kelburn",
+    "x": 174.7671,
+    "y": -41.284
+  },
+  {
+    "site_name": "Cobham Dr (Transit)",
+    "sculpture": "Zephyrometer",
+    "artist": "Phil Price",
+    "year_installed": "2000-01-01",
+    "location": "\"Zephyr O Meter\" (2003) - a long orange spike that pivots 22.5 degrees in any direction and is attached to a black concrete base. Artists: Phil Price. On the corner of Cobham Drive and Evans Bay Parade.  Consists of carbon fibre.  Origin/Provenance:",
+    "au_name": "Kilbirnie West-Hataitai South",
+    "x": 174.7962,
+    "y": -41.3122
+  },
+  {
+    "site_name": "Cobham Dr (Transit)",
+    "sculpture": "Tower of Light",
+    "artist": "Andrew Drummond",
+    "year_installed": "2005-01-01",
+    "location": "\"Tower of Light\" (2005) - (Wind Sculpture with spinning top and multi coloured neon rings.  Artist: Andrew Drummond; Origin/Provenance: Wellington Sculpture Trust, sponsored by Meridan Energy.",
+    "au_name": "Kilbirnie East",
+    "x": 174.8042,
+    "y": -41.317
+  },
+  {
+    "site_name": "Calabar Rd (Transit)",
+    "sculpture": "Lady Down Under",
+    "artist": "Paul Dibble",
+    "year_installed": "1999-01-01",
+    "location": "Airport Roundabout.   Title/Year: Down Under Lady (2000). Artist: Paul Dibble. Consists of Bronze, concrete plinth. Origin/Provenance: Commissioned by Isabella, Madeleine, Ottilie, Vita and Elliot Morrison (IMOVE) via Wellington Sculpture Trust.",
+    "au_name": "Miramar South",
+    "x": 174.8097,
+    "y": -41.3257
+  },
+  {
+    "site_name": "Miramar Branch Library",
+    "sculpture": "The Cat",
+    "artist": "Kerk Taylor",
+    "year_installed": "1997-01-01",
+    "location": "Title/Year: Cat (1997). Artist: Kerk Taylor. Consists of Oamaru Stone.",
+    "au_name": "Miramar South",
+    "x": 174.8162,
+    "y": -41.3164
+  },
+  {
+    "site_name": "Hector St",
+    "sculpture": "Lifestream Seaform",
+    "artist": "Roger Thompson",
+    "year_installed": "2005-01-01",
+    "location": "Lifestream Seaform.  Three metre high stainless steel sculpture of the tail of a fish atop a colum of seaweed and representing the journey through life. Artist: Roger Thompson.  Method of Aquisition: Donated by Elizabeth Maddle",
+    "au_name": "Seatoun",
+    "x": 174.8356,
+    "y": -41.3232
+  }
+]
