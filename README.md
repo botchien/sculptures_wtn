@@ -1,6 +1,7 @@
 # sculptures_wtn
 
 A dashboard of sculptures in the city of Wellington, New Zealand.
+
 Demo: https://zacclarknz.github.io/sculptures_wtn/ 
 
 ## Built With
