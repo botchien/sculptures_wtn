@@ -99,20 +99,12 @@
 </div>
 </div>
 
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js'></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script> -->
 <script type="text/javascript" src="js/d3.js"></script>
 <script type="text/javascript" src="js/crossfilter.js"></script>
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.js'></script> -->
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/dc/3.0.4/dc.js'></script> -->
 <script type="text/javascript" src="js/dc.js"></script>
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js'></script> -->
-<!-- <script type="text/javascript" src="js/leaflet.js"></script> -->
 <script type="text/javascript" src="js/leaflet_1.0.2.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js'></script>
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/leaflet.markercluster.js'></script> -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="js/leaflet.markercluster.js"></script>
 <script type="text/javascript" src="js/dc.leaflet.js"></script>
 
@@ -279,9 +271,9 @@ d3.json("data/sculpture.json", function(data) {
 
 	 $.fn.dataTable.ext.errMode = 'none';
 
-	datatable.on( 'error.dt', function ( e, settings, techNote, message ) {
-    console.log( 'An error has been reported by DataTables: ', message );
-	} ) ;
+	// datatable.on( 'error.dt', function ( e, settings, techNote, message ) {
+    // console.log( 'An error has been reported by DataTables: ', message );
+	// } ) ;
 	
 	//reset map view on clicking the reset button
 	 $("#mapReset").on('click', function() {
